@@ -1,0 +1,14 @@
+POST http://w-beta-1000.chemanman.com:7815/api/Basic/PriceSystemV2/priceOpV2/ HTTP/1.1
+Host: w-beta-1000.chemanman.com:7815
+Proxy-Connection: keep-alive
+Content-Length: 275
+accept: application/json
+Origin: http://w-beta-1000.chemanman.com:7815
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36
+content-type: application/x-www-form-urlencoded
+Referer: http://w-beta-1000.chemanman.com:7815/Company/innerPriceManager
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+Cookie: PHPSESSID=455bd69543ca5e39ee6cd5aaf228a7e7
+
+from=pc&req=%7B%22type%22%3A%22PInfo%22%2C%22op_type%22%3A%22add%22%2C%22obj_info%22%3A%7B%22state%22%3A1%2C%22price_name%22%3A%22%E6%A0%87%E6%9D%86maxwv-0%22%2C%22price_type%22%3A%22auth_basic_pt%22%2C%22fee_name%22%3A%22%E6%A0%87%E6%9D%86%E4%BB%B7%22%2C%22pm_id%22%3A%2228%22%7D%7D
